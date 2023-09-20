@@ -12,7 +12,7 @@ const Navbar = () => {
       <div className={styles.header}>
         <div className={styles.logo}>Trust Mart</div>
         <div className={styles.flex}>
-          <Link className={styles.nav} href={"/home"}>
+          <Link className={styles.nav} href={"/"}>
             Home
           </Link>
           <Link className={styles.nav} href={"/products"}>

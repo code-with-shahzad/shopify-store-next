@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+  background: #f9fbfb;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+.max-width {
+  max-width: 1300px;
+  margin: auto;
+  padding: 0 30px;
+}
+.intro-image {
+  width: 432px;
+  height: 351px;
+}
+.intro-text {
+  font-size: 50px;
+  max-width: 600px;
+  color: #2e7d32;
+}
+.intro-description {
+  color: #4e5156;
+  max-width: 600px;
+}
+.error-head {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 296px;
+}
+.text-404 {
+  font-size: 100px;
+  color: #e74c3c;
+}
+.text-not-found {
+  font-size: 24px;
+  margin-top: 10px;
+  color: #333;
+}
